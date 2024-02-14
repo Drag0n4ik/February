@@ -8,15 +8,18 @@
 /* ОБЩИЙ КОНТЕЙНЕР */
 body{
 	background:url('IMG/background.jpg');
-	background-attachment: fixed; /* Фон страницы фиксируется */
+	position: absolute;
+	/*background-attachment: fixed; /* Фон страницы фиксируется */
 	background-size: 100%;
 	margin: auto;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 .container{
+
 	display: block;
 	margin: auto;
-	
-	
+
        
 }
 
