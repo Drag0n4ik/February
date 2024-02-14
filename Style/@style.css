@@ -5,13 +5,27 @@
 
 }
 @media screen and (max-width: 992px){
+h1{
+  font-size: 1.5em;
+}
+h1,h2{
+  font-size: 1em;
+}
+
 .IMG{
   display:block;
+  margin: auto;
   width: 30%;
   height: 45%;
 }
-
-
+.IMG img{
+  width: 170%;
+  height: 80%;
+}
+#_IMG_2,#_IMG_3{
+  display: none;
+}
+/*
 .block {
   display: block;
   margin: center;
@@ -43,7 +57,7 @@
     top: 140%;
     right: 35%;
   }
-
+*/
 @media screen and (max-width: 480px){
 
 }

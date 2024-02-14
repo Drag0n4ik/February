@@ -52,6 +52,10 @@ h1,h2{
   0 10px 10px #200772;	
 
 }
+
+#_IMG_4,#_IMG_5,#_IMG_6{
+	display: none;
+}
 .IMG_{
 	display: block;
 	margin: auto;

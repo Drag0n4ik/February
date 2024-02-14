@@ -1,3 +1,42 @@
+function ONl_0(){
+	document.getElementById('_IMG_1').style.display = "none";
+	document.getElementById('_IMG_2').style.display = "none";
+	document.getElementById('_IMG_3').style.display = "none";
+	document.getElementById('_IMG_4').style.display = "none";
+	document.getElementById('_IMG_5').style.display = "none";
+	document.getElementById('_IMG_6').style.display = "none";
+/*	document.getElementById('_IMG_7').style.display = "none";
+	document.getElementById('_IMG_8').style.display = "none";
+	document.getElementById('_IMG_9').style.display = "none";
+	document.getElementById('_IMG_10').style.display = "none";
+	document.getElementById('_IMG_11').style.display = "none";*/
+}
+function ONl_1(){
+	ONl_0();
+	document.getElementById('_IMG_2').style.display = "block";
+}
+function ONl_2(){
+	ONl_0();
+	document.getElementById('_IMG_3').style.display = "block";
+}	
+function ONl_3(){
+	ONl_0();
+	document.getElementById('_IMG_4').style.display = "block";
+}
+function ONl_4(){
+	ONl_0();
+	document.getElementById('_IMG_5').style.display = "block";
+}
+function ONl_5(){
+	ONl_0();
+	document.getElementById('_IMG_6').style.display = "block";
+}
+function ONl_6(){
+	ONl_0();
+	document.getElementById('_IMG_1').style.display = "block";
+}
+
+
 function Time(){
 
 }
