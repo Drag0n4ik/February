@@ -1,0 +1,74 @@
+*{
+	 margin: 0;
+	 padding: 0;
+	 transition: 1s;
+	 /*background:url('IMG/background.jpg') no-repeat center center;*/
+	
+}
+/* ОБЩИЙ КОНТЕЙНЕР */
+body{
+	background:url('IMG/background.jpg');
+	background-attachment: fixed; /* Фон страницы фиксируется */
+	background-size: 100%;
+	margin: auto;
+}
+.container{
+	display: block;
+	margin: auto;
+	
+	
+       
+}
+
+.ots{
+	display: inline-block;
+	margin: auto;
+	background: #200772;
+}
+.Text{
+	display: inline-block;
+
+	text-align: center;
+	text-align-top:50px;
+}
+h1{
+	font-size: 2em;
+}
+h1,h2{
+	color: red;
+	font-size: 2.7em;
+	 text-shadow: 0 1px 0 #d2cece,
+  0 2px 0 #d2cece,
+  0 3px 0 #d2cece,
+  0 4px 0 #d2cece,
+  0 5px 0 #d2cece,
+  0 6px 0 transparent,
+  0 7px 0 transparent,
+  0 8px 0 transparent,
+  0 9px 0 transparent,
+  0 10px 10px #200772;	
+
+}
+.IMG_{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+.IMG{
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	width: 20%;
+	height: 25%;
+}
+.IMG img {
+	border-color:red;
+	border-radius: 15%;
+	margin: auto;
+	
+}
+.IMG img ::after{
+	box-shadow: 3px 3px 2px white;
+}
+
