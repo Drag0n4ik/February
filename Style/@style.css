@@ -10,6 +10,40 @@
   width: 30%;
   height: 45%;
 }
+
+
+.block {
+  display: block;
+  margin: center;
+  width: 10vh;
+  height: 10vh;
+  background: url(IMG/C_1.png) no-repeat center center / contain;
+  animation: star 3s linear infinite;
+  position: absolute;
+  left: 0; top: 0;
+}
+@keyframes star {
+  to {
+    top: 140%;
+    left: 35%;
+  }
+}
+.block_2 {
+  display: block;
+  margin: center;
+  width: 10vh;
+  height: 10vh;
+  background: url(IMG/C_1.png) no-repeat center center / contain;
+  animation: star_1 3s linear infinite;
+  position: absolute;
+  right: 0; top: 0;
+}
+@keyframes star_1 {
+  to {
+    top: 140%;
+    right: 35%;
+  }
+
 @media screen and (max-width: 480px){
 
 }
