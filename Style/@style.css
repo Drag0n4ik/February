@@ -1,120 +1,71 @@
 @media screen and (max-width: 1200px){
-h1{
-  font-size: 1.5em;
-}
-h1,h2{
-  font-size: 1em;
-}
 
-.IMG{
-  display:block;
-  margin: auto;
-  width: 30%;
-  height: 45%;
-}
-.IMG img{
-  width: 170%;
-  height: 80%;
-}
-#_IMG_2,#_IMG_3{
-  display: none;
 }
 
 
 @media screen and (max-width: 992px){
-h1{
-  font-size: 1.5em;
-}
-h1,h2{
-  font-size: 1em;
-}
 
-.IMG{
-  display:block;
-  margin: auto;
-  width: 30%;
-  height: 45%;
 }
-.IMG img{
-  width: 170%;
-  height: 80%;
-}
-#_IMG_2,#_IMG_3{
-  display: none;
-}
-/*
-.block {
-  display: block;
-  margin: center;
-  width: 10vh;
-  height: 10vh;
-  background: url(IMG/C_1.png) no-repeat center center / contain;
-  animation: star 3s linear infinite;
-  position: absolute;
-  left: 0; top: 0;
-}
-@keyframes star {
-  to {
-    top: 140%;
-    left: 35%;
-  }
-}
-.block_2 {
-  display: block;
-  margin: center;
-  width: 10vh;
-  height: 10vh;
-  background: url(IMG/C_1.png) no-repeat center center / contain;
-  animation: star_1 3s linear infinite;
-  position: absolute;
-  right: 0; top: 0;
-}
-@keyframes star_1 {
-  to {
-    top: 140%;
-    right: 35%;
-  }
-*/
 @media screen and (max-width: 480px){
+
+body{
+  background:url('IMG/background.jpg');
+  position: absolute;
+  /*background-attachment: fixed; /* Фон страницы фиксируется */
+
+  margin: auto;
+
+}
 h1{
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 h1,h2{
-  font-size: 1em;
+  font-size: 2em;
 }
 
-.IMG{
+.IMG_{
   display:block;
   margin: auto;
-  width: 30%;
-  height: 45%;
+
 }
 .IMG img{
-  width: 170%;
-  height: 80%;
+  /*margin-left: -10px;*/
+
+
 }
 #_IMG_2,#_IMG_3{
   display: none;
+}
 }
 }
 @media screen and (max-width: 320px){
 
+body{
+  background:url('IMG/background.jpg');
+  position: absolute;
+  /*background-attachment: fixed; /* Фон страницы фиксируется */
+
+  margin: auto;
+
+}
 h1{
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 h1,h2{
-  font-size: 1em;
+  font-size: 2em;
 }
 
-.IMG{
+.IMG_{
   display:block;
   margin: auto;
-  width: 30%;
-  height: 45%;
+
 }
 .IMG img{
-  width: 170%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
+  /*margin-left: -20px;*/
+
+
 }
 #_IMG_2,#_IMG_3{
   display: none;

@@ -59,20 +59,18 @@ h1,h2{
 .IMG_{
 	display: block;
 	margin: auto;
-	width: auto;
-	height: auto;
+	
 }
 .IMG{
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	width: 20%;
-	height: 25%;
+	width: 30%;
+  height: 45%;
 }
 .IMG img {
 	border-color:red;
 	border-radius: 15%;
-	margin: auto;
 	
 }
 .IMG img ::after{
